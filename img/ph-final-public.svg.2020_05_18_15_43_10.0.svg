@@ -1,29 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta charset="utf-8">
-<title></title>
-<meta name="description" content="">
-<meta name="author" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="">
-<!--[if lt IE 9]>
-<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<style>
-    .highlight:hover {
-        fill: #ff0000;
-    }
-</style>
-</head>
-<body>
-
-   <svg
-      viewBox="0 0 758.2 775.8"
-      id="svg3125"
-   >
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 758.2 775.8"
+   id="svg3125"
+   sodipodi:docname="ph-final-public.svg.2020_05_18_15_43_10.0.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <metadata
      id="metadata3131">
     <rdf:RDF>
@@ -611,20 +599,15 @@
                    d="m 430.557,483.98 h 79.837 v 117.142 h -79.837 z"
                    transform="matrix(1,0,0,-1,0,775.8)" />
               </clipPath>
-               <a
-                  id="cpv"
-                  xlink:href="https://cryptovillage.org/"
-                  target="_blank">
-                     <g
-                        id="g190"
-                        clip-path="url(#cp4)">
-                        <path class="highlight"
-                           id="path188"
-                           fill="#f8961d"
-                           d="m 0,0 h -5.266 l -1.214,-117.142 79.837,0.216 v 116.65 z"
-                           transform="matrix(1,0,0,-1,437.0367,174.67816)" />
-                     </g>
-               </a>        
+              <g
+                 id="g190"
+                 clip-path="url(#cp4)">
+                <path
+                   id="path188"
+                   fill="#f8961d"
+                   d="m 0,0 h -5.266 l -1.214,-117.142 79.837,0.216 v 116.65 z"
+                   transform="matrix(1,0,0,-1,437.0367,174.67816)" />
+              </g>
             </g>
             <g
                id="g203"
@@ -704,7 +687,16 @@
                    fill="#f8961d"
                    d="m 0,0 h -66.486 v -8.342 h -18.102 v -55.647 l 42.974,-0.163 v 1.266 H 0.163 Z"
                    transform="matrix(1,0,0,-1,474.0924,318.76509)" />
-
+                <path
+                   id="path221"
+                   d="m 0,0 h -66.486 v -8.342 h -18.102 v -55.647 l 42.974,-0.163 v 1.266 H 0.163 Z"
+                   stroke="#231f20"
+                   fill="none"
+                   stroke-linejoin="miter"
+                   stroke-miterlimit="10"
+                   stroke-linecap="butt"
+                   stroke-width="1"
+                   transform="matrix(1,0,0,-1,474.0924,318.76509)" />
               </g>
             </g>
             <g
@@ -872,21 +864,15 @@
                    d="m 614.602,451.657 h 70.621 v 34.662 h -70.621 z"
                    transform="matrix(1,0,0,-1,0,775.8)" />
               </clipPath>
-              <!--  -->
-              <a
-              id="recon"
-              xlink:href="https://reconvillage.org/"
-              target="_blank">
               <g
-                  id="g289"
-                  clip-path="url(#cp13)">
-                  <path class="highlight"
-                     id="path287"
-                     fill="#f8961d"
-                     d="m 685.222,451.657 h -70.62 v 34.662 h 70.62 z"
-                     transform="matrix(1,0,0,-1,0,775.8)" />
-               </g>
-            </a>
+                 id="g289"
+                 clip-path="url(#cp13)">
+                <path
+                   id="path287"
+                   fill="#f8961d"
+                   d="m 685.222,451.657 h -70.62 v 34.662 h 70.62 z"
+                   transform="matrix(1,0,0,-1,0,775.8)" />
+              </g>
             </g>
             <g
                id="g302"
@@ -11021,8 +11007,3 @@
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
-    
-
-
-</body>
-</html>
