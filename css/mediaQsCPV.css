@@ -1,0 +1,369 @@
+@media only screen and (min-width:1280px) {
+    body.header {
+        background: #343434 url(./cpv_dc28.gif) center 40px no-repeat;
+        margin-right: -60px;
+    }
+    svg{
+        margin-top: 600px;
+    }
+    .navHolder {
+        max-width: 1200px;
+        margin-left: 30px;
+    }
+    .callNav {
+        margin-top: 40px
+    }
+        aside.social {
+            margin: 0 0 0 -40px;
+    
+        }
+    .socIcon {
+        padding: 0 0 15px 11px;
+    }
+    .useCase:hover {
+        height: 235px;
+        max-height: 235px;
+        margin-top: -145px
+    }
+    #maincontent {
+        margin-top: 90px;
+    }
+    ul.call h3 {
+        font: 1.3em 'bebas_neueregular', Helvetica, Arial, sans-serif
+    }
+}
+
+@media only screen and (max-width:1279px) and (min-width:960px) {
+    body.header {
+    background: #343434 url(dc28-safemode-header-959.jpg) center 40px no-repeat;
+        margin-left: -20px;
+    }
+    svg{
+        margin-top: 500px;
+    }    
+    .navHolder {
+        max-width: 960px;
+        padding: 0 10px;
+    }
+        .pageTitle {
+            margin-top: 360px;
+        }
+        .callNav {
+            padding-right: 20px
+        }
+    article.action h3 {
+        font: 1.1em 'bebas_neueregular', "Courier New", Courier, monospace;
+        line-height: 1.8em;
+        padding-top: 2px;
+        text-align: center
+    }
+    ul.call h3 {
+        font: 1.2em 'bebas_neueregular', Helvetica, Arial, sans-serif
+    }
+    .regTable td{
+        width: 100%;
+        max-width: 150px;
+    }
+    
+    #maincontent {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:959px) and (min-width:768px) {    
+	body.header {
+	background: #343434 url(./dc28-safemode-header-768.jpg) center 30px no-repeat;
+	margin-left: -20px;
+}	
+svg{
+    margin-top: 400px;
+}   
+.navHolder {
+	max-width: 768px;
+	padding: 0 10px;
+}
+.nav {
+	font-size: 1.1em
+}
+.nav li a {
+	font-size: 1em
+}
+article.action h3 {
+	font: 1.3em 'bebas_neueregular', "Courier New", Courier, monospace;
+	line-height: 1.3em;
+	padding-top: 6px;
+	text-align: center
+}
+.socIcon {
+	padding: 0 0 15px 10px
+}
+.calendarRow li {
+	font-size: .7em;
+	line-height: .8em
+}
+.calendarRow li p {
+	line-height: 1.2em
+}
+.scheduleRow li {
+	font-size: .7em;
+	line-height: .8em
+}
+.scheduleRow li p {
+	line-height: 1.2em
+}
+ul.call h3 {
+	font: 1em 'bebas_neueregular', Helvetica, Arial, sans-serif;
+}
+.callNav {
+	padding-right: 20px
+}
+.regTable td{
+	width: 100%;
+	max-width: 125px;
+
+}
+.pageTitle {
+		margin-top: 275px;
+	}
+#maincontent {
+	margin-top: -110px;
+}
+}
+
+@media only screen and (max-width:767px) {
+    body.header {
+        background: #343434 url("./dc28-safemode-header-360.jpg");
+        background-repeat: no-repeat, repeat-x, repeat;
+        background-position: center top;
+    }
+    .feature {
+        padding-bottom: 35px;
+        padding-top: 15px
+    }
+    .post {
+        padding-bottom: 35px;
+        padding-top: 15px
+    }
+    .lastCon {
+        display: block;
+        margin: 0 auto;
+        padding: 45px 0 0 7px;
+        width: 100%;
+        }
+    .main {
+        border: 0
+    }
+    .socIcon {
+        padding: 0 0 15px 16px
+    }
+    .feature img {
+        margin: 0 auto;
+        padding-left: 0
+    }
+    .useCase {
+        background-color: #000;
+        opacity: 1;
+        height: 100%;
+        max-height: 275px;
+        margin-top: 0;
+        padding-bottom: 15px
+    }
+    .guideNav {
+        margin-top: 265px!important
+    }
+    .guideIcon {
+        height: 40px;
+        width: 40px
+    }
+    .navHolder {
+        padding-top: 230px;
+    }
+    .nav li:hover {
+        background-color: rgba(.8);
+    }
+    .nav li.multi:hover {
+        height: 270px
+    }
+    #firstItem li.multi:hover {
+        height: 98px
+    }
+    #secItem li:hover {
+        height: 30px
+    }
+    #thirdItem li.multi:hover {
+        height: 182px
+    }
+    #fourthItem li:hover {
+        height: 30px
+    }
+    #fifthItem li:hover {
+        height: 30px
+    }
+    #sixthItem li.multi:hover {
+        height: 92px
+    }
+    #lastItem li.multi:hover {
+        height: 480px
+    }
+    .smPageTitle {
+        font: 3em 'Bebas_neueregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.1em;
+        color: lightgray
+    }
+    .pageTitle {
+        display: none
+    }
+    .callNav {
+        position: relative;
+        top: 40px;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 15px;
+    }	
+    .callSpacer {
+            display:none;
+        }
+    ul.call {
+        display: block;
+        float: left;
+        width: 100%;
+        max-width: 50%
+    }
+    aside.leftSideBar {
+        text-align: center;
+        padding-top: 0
+    }
+    .emptyDate {
+        display: none
+    }
+    .emptyRoom {
+        display: none
+    }
+    article.action {
+        width: 100%;
+        min-width: 100%
+    }
+    .scheduleRow li {
+        font-size: 1.5em;
+        padding: 10px
+    }
+    .scheduleRow li p.schedTalk {
+        display: run-in;
+        margin-left: 60px;
+        text-align: left
+    }
+    .scheduleRow li p.schedTalk:first-line {
+        margin-left: 0
+    }
+    .scheduleRow li {
+        font-size: 1.5em;
+        padding: 10px
+    }
+    .scheduleRow li p {
+        line-height: 1.2em;
+        font-size: .8em
+    }
+    .scheduleRow li p.schedTalk {
+        display: run-in;
+        margin-left: 60px;
+        text-align: left
+    }
+    .scheduleRow li p.schedTalk:first-line {
+        margin-left: 0
+    }
+    .leftSideBar p {
+        text-align: center
+    }
+    
+    
+}
+
+@media only screen and (max-width:767px) and (min-width:480px) {
+    body.header {
+        background: #343434 url("./dc28-safemode-header-360.jpg");
+        background-repeat: no-repeat, repeat-x, repeat;
+        background-position: center top;
+    }
+    svg{
+        margin-top: 200px;
+    } 
+    nav {
+        margin: 205px 0 0 0
+    }
+    .smPageTitle {
+        text-align: center;
+        margin: 35px 0 -15px 0;
+    }
+    .header {
+        height: 0;
+    }
+    .nav {
+        max-width: 450px
+    }
+    aside.leftSideBar {
+        margin: 100px 0 0 0;
+        clear: both
+    }
+    .leftSideBar h3 {
+        text-align: center
+    }
+    .socIcon {
+        padding: 75px 0 15px 23px
+    }
+    #maincontent {
+        padding-top: 0;
+        margin: 35px 0 0 0 ;
+    }
+    ul.callSpacer {
+        visibility: hidden;
+    }
+    .regTable {
+        margin:0 auto;
+    }
+}
+    
+@media only screen and (max-width:479px) {
+    nav {
+        margin: 80px 0 0 0;
+    }
+    body.header {
+        background: #343434  url("./dc28-safemode-header-360.jpg") center top no-repeat;
+    }
+    svg{
+        margin-top: 200px;
+    }     
+    .smPageTitle {
+        text-align: center;
+        margin: 25px 0 15px 0
+    }
+    .leftSideBar h3 {
+        text-align: center
+    }
+    .social {
+        padding: 50px 0 0 0;
+    }
+    .socIcon {
+        padding: 25px 0 15px 8px
+    }
+    .helv {
+        font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif"
+    }
+    #maincontent {
+        padding-top: 0;
+        margin: 0 0 0 0;
+    }
+    .navHolder {
+        padding-top: 175px;
+    }
+    ul.callSpacer {
+        visibility: hidden;
+    }
+    .regTable {
+        margin:0 auto;
+    }
+ }
+
+.highlight:hover {
+    fill: #ff0000;
+}
+
