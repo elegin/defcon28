@@ -2,7 +2,7 @@
 function getEvents(){
     console.log("getEvents");
     const xhr = new XMLHttpRequest();
-    let url = '../2020_cpv'
+    let url = 'https://elegin.github.io/2020_cpv/'
     xhr.open('GET', url);
     xhr.send(); 
     xhr.onload = function() {
