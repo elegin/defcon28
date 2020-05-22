@@ -6,30 +6,9 @@
     svg{
         margin-top: 600px;
     }
-    .navHolder {
-        max-width: 1200px;
-        margin-left: 30px;
-    }
-    .callNav {
-        margin-top: 40px
-    }
-        aside.social {
-            margin: 0 0 0 -40px;
-    
-        }
-    .socIcon {
-        padding: 0 0 15px 11px;
-    }
-    .useCase:hover {
-        height: 235px;
-        max-height: 235px;
-        margin-top: -145px
-    }
+
     #maincontent {
         margin-top: 90px;
-    }
-    ul.call h3 {
-        font: 1.3em 'bebas_neueregular', Helvetica, Arial, sans-serif
     }
 }
 

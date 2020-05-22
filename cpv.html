@@ -27,18 +27,35 @@
         <link rel="apple-touch-icon" href="https://defcon.org/images/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="https://defcon.org/images/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="https://defcon.org/images/apple-touch-icon-114x114.png">
-        
+        <style>
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(240, 22, 22, 0.2);
+              transition: 0.3s;
+              width: 40%;
+              border-radius: 5px;
+            }
+            
+            .card:hover {
+              box-shadow: 0 8px 16px 0  rgb(47, 181, 214);
+            }
+            
+            img {
+              border-radius: 5px 5px 0 0;
+            }
+            
+            .container {
+              padding: 2px 16px;
+            }
+            </style>        
     </head>
     <body class="header"  onload="getEvents()">
 
-         <section class="sixteen columns alpha ">
+         <!-- <section class="sixteen columns alpha "> -->
             <div id="maincontent">
                <h1 >CPV CONTENT</h1>
                <p>pull json data from github repo</p>
             </div>
-            
-
-         </section> 
+         <!-- </section>  -->
          <script src="./js/mehApi.js"></script>
     </body>
 </html>
