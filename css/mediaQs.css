@@ -1,3 +1,12 @@
+.svg-container { 
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	padding-bottom: 80%; 
+	vertical-align: middle; 
+    overflow: hidden; 
+    margin-left: 100px;
+}
 @media only screen and (min-width:1280px) {
     body.header {
         background: #343434 url(./dc28-safemode-header.jpg) center 40px no-repeat;
