@@ -1,12 +1,19 @@
-function a(id){
+function hoverover(id){
     var ab=document.getElementById(id);
     ab.style.fill ="green";
     ab.style.cursor = "pointer";
+    getInfo(ab)
+
 }
-function b(id){
+function hoverout(id){
     var ab=document.getElementById(id);
     ab.style.fill="#f8961d";
 }
-function c(link){
-    window.location.href = link+".html"
+function click(link){
+    window.location.href = link
+}
+function getInfo(ab){
+    console.log(ab)
+    console.log(ab.getAttribute("village"))
+
 }
