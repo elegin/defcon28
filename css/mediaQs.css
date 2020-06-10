@@ -41,6 +41,7 @@
     ul.call h3 {
         font: 1.3em 'bebas_neueregular', Helvetica, Arial, sans-serif
     }
+    
 }
 
 @media only screen and (max-width:1279px) and (min-width:960px) {
@@ -330,6 +331,15 @@ ul.call h3 {
     .regTable {
         margin:0 auto;
     }
+    .svg-container { 
+        display: inline-block;
+        position: relative;
+        width: 80%;
+        padding-bottom: 80%; 
+        vertical-align: middle; 
+        overflow: hidden; 
+        margin-left: 50px;
+    }    
 }
     
 @media only screen and (max-width:479px) {
@@ -371,6 +381,16 @@ ul.call h3 {
     .regTable {
         margin:0 auto;
     }
+    .svg-container { 
+        display: inline-block;
+        position: relative;
+        width: 80%;
+        padding-bottom: 80%; 
+        vertical-align: middle; 
+        overflow: hidden; 
+        margin-left: 25px;
+    }    
+}
  }
 
 .highlight:hover {
